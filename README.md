@@ -1,5 +1,6 @@
 # Exploratory Data Analysis (EDA) Lab - U18AII5202L
 
+**Name:** POOJITH M  
 **Roll No:** 23BAD083
 
 ## Overview
@@ -11,6 +12,8 @@ This repository contains Exploratory Data Analysis experiments performed using R
 |------------|-------|---------|-------------|
 | [Experiment 1](Experiment1/) | Student Performance Analysis | Student academic records | Analyze student grades, subject-wise performance trends, and grade distributions |
 | [Experiment 2](Experiment2/) | E-Commerce Transaction Analysis | Online transaction data | Analyze transaction patterns, detect outliers, and visualize sales intensity |
+| [Experiment 3](Experiment3/) | Healthcare Data Analysis | Patient health records | Scatter plot matrix with color encoding, correlation analysis |
+| [Experiment 4](Experiment4/) | Traffic Accidents Analysis | Traffic accident data | Multi-dimensional encoding for severity, frequency, and accident types |
 
 ---
 
@@ -44,6 +47,36 @@ This repository contains Exploratory Data Analysis experiments performed using R
 
 ---
 
+## Experiment 3: Healthcare Data Analysis
+
+**Objective:** Analyze healthcare data to identify correlations between health indicators using scatter plot matrices with age-based color encoding.
+
+**Visualizations:**
+- 🔴🟢🔵 Scatter Plot Matrix - Color-coded by age groups (Young, Middle, Senior)
+- 📊 Correlation Matrix - Health indicator correlations
+
+**Libraries:** Base R graphics
+
+[View Experiment 3 →](Experiment3/)
+
+---
+
+## Experiment 4: Traffic Accidents Analysis
+
+**Objective:** Visualize traffic accident data using multi-dimensional encoding techniques.
+
+**Visualizations:**
+- 📍 Multi-dimensional Plot with:
+  - Size → Accident Frequency
+  - Color Gradient → Severity (Gold to Red)
+  - Shape → Accident Type
+
+**Libraries:** Base R graphics
+
+[View Experiment 4 →](Experiment4/)
+
+---
+
 ## Tools & Technologies
 - **Language:** R
 - **IDE:** RStudio
@@ -69,12 +102,25 @@ This repository contains Exploratory Data Analysis experiments performed using R
 │       ├── bar_cahrt.png
 │       ├── line_chart.png
 │       └── pie_chart.png
-└── Experiment2/
+├── Experiment2/
+│   ├── README.md
+│   ├── EDA_ass_2.R
+│   ├── 2.ecommerce_transactions.csv
+│   └── figures/
+│       ├── histogram_plot.png
+│       ├── box_plot.png
+│       └── heatmap.png
+├── Experiment3/
+│   ├── README.md
+│   ├── EDA_ass_3.R
+│   ├── 3.healthcare_data.csv
+│   └── Figures/
+│       ├── scatter_plot.png
+│       └── Correlation.png
+└── Experiment4/
     ├── README.md
-    ├── EDA_ass_2.R
-    ├── 2.ecommerce_transactions.csv
-    └── figures/
-        ├── histogram_plot.png
-        ├── box_plot.png
-        └── heatmap.png
+    ├── EDA_ass_4.R
+    ├── 4.traffic_accidents.csv
+    └── Figures/
+        └── plot.png
 ```
